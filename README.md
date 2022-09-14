@@ -10,7 +10,8 @@ Cada ruta puede tener una o varias funciones de `controlador`, que se excluyen c
 
 `app.MÉTODO(ENDPOINT, CONTROLADOR)`
 
-Ejemplo:
+En el siguiente ejemplo, el código responda a una solicitud `GET` en la ruta `/about`:
+
 ```javascript
 app.get('/about', function (req, res) {
   res.send('about');
