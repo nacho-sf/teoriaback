@@ -22,11 +22,11 @@ app.get('/about', function (req, res) {
 - `RUTA` es una vía de acceso en el servidor
 - `CONTROLADOR` es la función que se ejecuta cuando se correlaciona la ruta
 
-### Métodos de ruta
+#### Métodos de ruta
 
 Express da soporte a los métodos de direccionamiento que se corresponden con los métodos HTTP. Los básicos son `GET - POST - PUT - DELETE`
 
-### Vías de aceso de ruta
+#### Vías de aceso de ruta
 
 Las vías de acceso de `ruta`, en combinación con un `método` de solicitud, definen los `endpoints` en los que pueden realizarse las solicitudes.
 
