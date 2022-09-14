@@ -8,7 +8,7 @@ Cada ruta puede tener una o varias funciones de `controlador`, que se excluyen c
 
 ### Estructura
 
-app.MÉTODO(ENDPOINT, CONTROLADOR)
+`app.MÉTODO(ENDPOINT, CONTROLADOR)`
 
 Ejemplo:
 ```javascript
