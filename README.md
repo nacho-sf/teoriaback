@@ -6,6 +6,7 @@ El `routing` hace referencia a la determinación de cómo responde una aplicaci�
 
 Cada ruta puede tener una o varias funciones de `controlador`, que se excluyen cuando se correlaciona la ruta.
 
+
 ### Estructura
 
 app.METODO(ENDPOINT, CONTROLADOR)
