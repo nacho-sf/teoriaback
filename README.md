@@ -32,4 +32,4 @@ Las vías de acceso de `ruta`, en combinación con un `método` de solicitud, de
 
 Las vías de acceso de `ruta` pueden ser series, patrones de serie o expresiones regulares:
 
-- Express utiliza `path-to-regexp` para correlacionar las vías de acceso de ruta; consulte la documentación de [path-to-regexp]("https://www.npmjs.com/package/path-to-regexp") para ver todas las posibilidades para definir vías de acceso de ruta.
+- Express utiliza `path-to-regexp` para correlacionar las vías de acceso de ruta; consulte la documentación de [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para ver todas las posibilidades para definir vías de acceso de ruta.
