@@ -4,8 +4,9 @@
 
 El `routing` hace referencia a la determinación de cómo responde una aplicación a una solicitud de cliente en una determinada `ruta`, que es un URI (o una vía de acceso) y un método de solicitud HTTP específico (GET, POST, etc.).
 
-Cada `ruta` puede tener una o varias funciones de `controlador`, que se excluyen cuando se correlaciona la ruta.    
+Cada `ruta` puede tener una o varias funciones de `controlador`, que se excluyen cuando se correlaciona la ruta.
 
+.
 ## Estructura
 
 `app.MÉTODO(RUTA, CONTROLADOR)`
@@ -20,12 +21,14 @@ app.get('/about', function (req, res) {
 - `app` es una instancia de express
 - `MÉTODO` es un método de solicitud HTTP (GET, POST, PUT, DELETE)
 - `RUTA` es una vía de acceso en el servidor
-- `CONTROLADOR` es la función que se ejecuta cuando se correlaciona la ruta    
+- `CONTROLADOR` es la función que se ejecuta cuando se correlaciona la ruta
 
+.
 ### Métodos de ruta
 
-Express da soporte a los métodos de direccionamiento que se corresponden con los métodos HTTP. Los básicos son `GET - POST - PUT - DELETE`    
+Express da soporte a los métodos de direccionamiento que se corresponden con los métodos HTTP. Los básicos son `GET - POST - PUT - DELETE`
 
+.
 ### Vías de aceso de ruta
 
 Las vías de acceso de `ruta`, en combinación con un `método` de solicitud, definen los `endpoints` en los que pueden realizarse las solicitudes.
