@@ -6,10 +6,9 @@ El `routing` hace referencia a la determinación de cómo responde una aplicaci�
 
 Cada ruta puede tener una o varias funciones de `controlador`, que se excluyen cuando se correlaciona la ruta.
 
-
 ### Estructura
 
-app.METODO(ENDPOINT, CONTROLADOR)
+app.MÉTODO(ENDPOINT, CONTROLADOR)
 
 Ejemplo:
 ```javascript
@@ -17,3 +16,7 @@ app.get('/about', function (req, res) {
   res.send('about');
 });
 ```
+- `app` es una instancia de express
+- `MÉTODO` es un método de solicitud HTTP (GET, POST, PUT, DELETE)
+- `ENDPOITN` es una vía de acceso en el servidor
+- `CONTROLADOR` es la función que se ejecuta cuando se correlaciona la ruta
