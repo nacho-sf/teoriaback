@@ -29,10 +29,20 @@ app.get('/about', function (req, res) {
 Express da soporte a los métodos de direccionamiento que se corresponden con los métodos HTTP. Los básicos son `GET - POST - PUT - DELETE`
 
 .
-### Vías de aceso de ruta
+### [Vías de aceso de ruta]()
 
 Las vías de acceso de `ruta`, en combinación con un `método` de solicitud, definen los `endpoints` en los que pueden realizarse las solicitudes.
 
-Las vías de acceso de `ruta` pueden ser series, patrones de serie o expresiones regulares:
+Las vías de acceso de `ruta` pueden ser series, patrones de serie o expresiones regulares.
 
-- Express utiliza `path-to-regexp` para correlacionar las vías de acceso de ruta; consulte la documentación de [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para ver todas las posibilidades para definir vías de acceso de ruta.
+Ejemplo de vía de acceso de ruta basada en `Regexp`:
+
+```javascript
+app.get(/a/, function(req, res) {
+  res.send('/a/');
+});
+```
+
+La anterior vía de acceso de ruta coincidirá con cualquier valor con una “a” en el nombre de la ruta.
+
+Express utiliza `path-to-regexp` para correlacionar las vías de acceso de ruta; consulte la documentación de [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) para ver todas las posibilidades para definir vías de acceso de ruta.
