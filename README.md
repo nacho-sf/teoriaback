@@ -24,7 +24,7 @@ app.get('/about', function (req, res) {
 - `CONTROLADOR` es la función que se ejecuta cuando se correlaciona la ruta
 
 .
-### [Métodos de ruta]
+### [Métodos de ruta]()
 
 Express da soporte a los métodos de direccionamiento que se corresponden con los métodos HTTP. Los básicos son `GET - POST - PUT - DELETE`
 
